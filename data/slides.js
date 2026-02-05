@@ -1,0 +1,80 @@
+import Slide from "@/components/Slide";
+import { motion } from "framer-motion";
+
+export const slides = [
+    <Slide
+        key={0}
+        title="Il tuo 2025 con me ❤️"
+        subtitle="Grazie per averlo ascoltato fino in fondo"
+        backgroundImage="/images/image_1.png"
+    />,
+
+    <Slide
+        key={7}
+        title="Prima traccia riprodotta"
+        subtitle="La nostra prima uscita 👩‍❤️‍👩"
+        backgroundImage="/images/image_8.png"
+    />,
+
+    <Slide key={1} backgroundImage="/images/image_2.png">
+        <motion.h1
+            initial={{ opacity: 0, scale: 0.8 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.9, ease: "easeOut" }}
+            className="text-7xl md:text-9xl font-black"
+        >
+            2190
+        </motion.h1>
+
+        <motion.p
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.3 }}
+            className="text-xl md:text-2xl mt-4 opacity-80"
+        >
+            ore insieme 💚
+        </motion.p>
+    </Slide>,
+
+    <Slide
+        key={2}
+        title="Top ricordo dell’inverno"
+        subtitle="Il nostro primo Natale insieme 🎄"
+        backgroundImage="/images/image_3.png"
+    />,
+
+    <Slide
+        key={3}
+        title="Il suo hobby preferito"
+        subtitle="Mangiare. Sempre."
+        backgroundImage="/images/image_4.png"
+    />,
+
+    <Slide
+        key={4}
+        title="Il nostro momento preferito"
+        subtitle="Cucinare insieme"
+        backgroundImage="/images/image_5.png"
+    />,
+
+    <Slide
+        key={5}
+        title="Top momenti tranquilli"
+        subtitle="Le nostre passeggiate"
+        backgroundImage="/images/image_6.png"
+    />,
+
+    <Slide
+        key={6}
+        title="Le prime lezioni di guida"
+        subtitle="Con più risate che freni"
+        backgroundImage="/images/image_7.png"
+    />,
+
+    <Slide
+        key={8}
+        title="Se questo era solo l’inizio"
+        subtitle="Non vedo l’ora del resto"
+        backgroundImage="/images/image_9.png"
+    />,
+];
