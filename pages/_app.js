@@ -27,7 +27,7 @@ export default function App({ Component, pageProps }) {
         >
             <audio
                 ref={audioRef}
-                src="/audio/background.mp3"
+                src="https://pdv-ksenia.s3.eu-west-1.amazonaws.com/audio/background.mp3"
                 loop
                 preload="auto"
             />
