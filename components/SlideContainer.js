@@ -3,9 +3,9 @@ import ProgressBar from "./ProgressBar";
 import { AudioContext } from "@/pages/_app";
 import { BiPause, BiPlay } from "react-icons/bi";
 
-const AUTOPLAY_TIME = 4000;
+const AUTOPLAY_TIME = 4500;
 const LONG_PRESS_TIME = 300; // ms
-const FINAL_AUDIO_DELAY = 4000; // ms → quanto continua la musica sull’ultima slide
+const FINAL_AUDIO_DELAY = 4500; // ms → quanto continua la musica sull’ultima slide
 const FADE_OUT_DURATION = 2000; // ms → durata fade out
 
 export default function SlideContainer({ slides }) {
@@ -167,7 +167,7 @@ export default function SlideContainer({ slides }) {
             style={{ height: "calc(var(--vh) * 100)" }}
         >
             {/* TOP BAR */}
-            <div className="absolute top-4 left-4 right-4 z-50 flex items-center gap-3">
+            <div className="absolute top-2 left-4 right-4 z-50 flex items-center gap-3">
                 <ProgressBar
                     total={slides.length}
                     current={current}

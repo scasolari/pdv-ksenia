@@ -19,6 +19,7 @@ const itemVariants = {
 };
 
 export default function Slide({
+                                  emoji,
                                   title,
                                   subtitle,
                                   backgroundImage,
@@ -50,6 +51,15 @@ export default function Slide({
                 initial="hidden"
                 animate="visible"
             >
+                {emoji && (
+                    <motion.h1
+                        variants={itemVariants}
+                        className="text-6xl md:text-6xl font-extrabold mb-4"
+                    >
+                        {emoji}
+                    </motion.h1>
+                )}
+
                 {title && (
                     <motion.h1
                         variants={itemVariants}
