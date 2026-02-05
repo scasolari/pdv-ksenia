@@ -6,17 +6,17 @@ export const slides = [
         key={0}
         title="Il tuo 2025 con me ❤️"
         subtitle="Grazie per averlo ascoltato fino in fondo"
-        backgroundImage="/images/image_1.png"
+        backgroundImage="https://pdv-ksenia.s3.eu-west-1.amazonaws.com/images/image_1.jpg"
     />,
 
     <Slide
         key={7}
         title="Prima traccia riprodotta"
         subtitle="La nostra prima uscita 👩‍❤️‍👩"
-        backgroundImage="/images/image_8.png"
+        backgroundImage="https://pdv-ksenia.s3.eu-west-1.amazonaws.com/images/image_8.jpg"
     />,
 
-    <Slide key={1} backgroundImage="/images/image_2.png">
+    <Slide key={1} backgroundImage="https://pdv-ksenia.s3.eu-west-1.amazonaws.com/images/image_2.jpg">
         <motion.h1
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
@@ -40,41 +40,41 @@ export const slides = [
         key={2}
         title="Top ricordo dell’inverno"
         subtitle="Il nostro primo Natale insieme 🎄"
-        backgroundImage="/images/image_3.png"
+        backgroundImage="https://pdv-ksenia.s3.eu-west-1.amazonaws.com/images/image_3.jpg"
     />,
 
     <Slide
         key={3}
         title="Il suo hobby preferito"
         subtitle="Mangiare. Sempre."
-        backgroundImage="/images/image_4.png"
+        backgroundImage="https://pdv-ksenia.s3.eu-west-1.amazonaws.com/images/image_4.jpg"
     />,
 
     <Slide
         key={4}
         title="Il nostro momento preferito"
         subtitle="Cucinare insieme"
-        backgroundImage="/images/image_5.png"
+        backgroundImage="https://pdv-ksenia.s3.eu-west-1.amazonaws.com/images/image_5.jpg"
     />,
 
     <Slide
         key={5}
         title="Top momenti tranquilli"
         subtitle="Le nostre passeggiate"
-        backgroundImage="/images/image_6.png"
+        backgroundImage="https://pdv-ksenia.s3.eu-west-1.amazonaws.com/images/image_6.jpg"
     />,
 
     <Slide
         key={6}
         title="Le prime lezioni di guida"
         subtitle="Con più risate che freni"
-        backgroundImage="/images/image_7.png"
+        backgroundImage="https://pdv-ksenia.s3.eu-west-1.amazonaws.com/images/image_7.jpg"
     />,
 
     <Slide
         key={8}
         title="Se questo era solo l’inizio"
         subtitle="Non vedo l’ora del resto"
-        backgroundImage="/images/image_9.png"
+        backgroundImage="https://pdv-ksenia.s3.eu-west-1.amazonaws.com/images/image_9.jpg"
     />,
 ];
